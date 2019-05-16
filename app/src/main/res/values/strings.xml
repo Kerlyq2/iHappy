@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">iHappy</string>
+    <!-- Login-->
+    <string name="usuario">Username or email</string>
+    <string name="contrasena">Password</string>
+    <string name="sign_in">LOG IN</string>
+    <string name="line">________________________</string>
+    <string name="register">Registrar</string>
+    <string name="there_was_an_error_try_it_later">Hubo un error, por favor intenté más tarde</string>
+    <string name="no_server_connection_try_it_later">No hubo conexión al servidor, por favor intente más tarde</string>
+    <!-- Emotions-->
+    <string name="hey">Hey!</string>
+    <string name="day">¿Cómo va tu día?</string>
+    <string name="awesome">Increíble</string>
+    <string name="happy">Feliz</string>
+    <string name="there">Ahí</string>
+    <string name="bad">Mal</string>
+    <string name="horrible">Horrible</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="feeling">Como me he sentido</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

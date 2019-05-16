@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="azulLucky">#0066a4</color>
+    <color name="amarilloSeleccion">#f9fc9b</color>
+    <color name="fucsiaSeleccion">#f3b9d8</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="translucent_red">#80ff0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="fucsiaLucy">#ea078c</color>
+    <color name="azulclaro">#C6E3E0</color>
+    <color name="azulFondosTras">#c9edf6ff</color>
+    <color name="negro">#000000</color>
+
+    <!--Colores para la nueva version-->
+    <color name="subtitleToolbar">#FFFFFF</color>
+    <color name="dialog_color">@color/colorPrimaryDark</color>
+    <color name="fondo">#FFFFFF</color>
+    <color name="fondo2">#d4d4d4</color>
+    <color name="colortitletoolbar">#00994d</color>
+
+    <color name="colorPrimary">#2f55a4</color>
+    <color name="colorPrimaryDark">#007a31 </color>
+    <color name="colorAccent">#00691f </color>
+
+    <color name="green_start">#00994d</color>
+    <color name="blue_end">#2dcc6a</color>
+    <color name="blue_end_toolbar">#00994d</color>
+    <color name="red_start">#616161</color>
+    <color name="red_end">#9e9e9e</color>
+    <color name="textV">#000000</color>
+    <color name="editText">#FF6D6D6D</color>
+    <color name="btnSelected">#ea078c</color>
+
+    <color name="colorPrimary_tabHost">#2dcc6a</color>
+    <color name="colorPrimaryDark_tabHost">#00994d</color>
+
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="rojo">#ff4040 </color>
+
+</resources>
+    <!--  -->

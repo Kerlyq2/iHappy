@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/emotions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginLeft="160dp"
+            android:src="@drawable/ic_bad" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/title_sentir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/feeling"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_below="@+id/emotions"
+        android:textSize="30dp"/>
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_sentir">
+        <LinearLayout
+            android:id="@+id/listSintomas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/title_sentir">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/negro"
+                android:text="No hay sintomas por mostrar"
+                android:gravity="center"
+                android:visibility="gone"
+                android:id="@+id/tv_no_items"/>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_book"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/item_sintomas"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

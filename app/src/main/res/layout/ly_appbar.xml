@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/custom_background_toolbar"
+        app:titleTextColor="@color/blanco"
+        android:elevation="4dp"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+        <RelativeLayout
+            android:id="@+id/relativeToolbarSub"
+            android:layout_gravity="right"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/subtitle_toolbar"
+                android:minLines="1"
+                android:maxLines="2"
+                android:inputType="textMultiLine"
+                android:gravity="end"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:cursorVisible="false"
+                android:longClickable="false"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                style="@style/subtitle_toolbar"/>
+            <TextView
+                android:id="@+id/dot"
+                android:layout_toEndOf="@+id/subtitle_toolbar"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                style="@style/subtitle_toolbar"/>
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+</android.support.design.widget.AppBarLayout>
