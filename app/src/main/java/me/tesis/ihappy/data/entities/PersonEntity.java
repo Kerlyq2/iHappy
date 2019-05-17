@@ -4,64 +4,63 @@ import com.google.gson.annotations.SerializedName;
 
 public class PersonEntity {
 
-    @SerializedName("username")
-    public String username;
-    @SerializedName("password")
-    public String password;
-    @SerializedName("nombre")
-    public String nombre;
-    @SerializedName("apellidos")
-    public String apellidos;
-    @SerializedName("email")
-    public String email;
+    @SerializedName("id")
+    public String id;
+    @SerializedName("user")
+    public UserEntity user;
+    @SerializedName("genre")
+    public String genre;
+    @SerializedName("born_date")
+    public String born_date;
+    @SerializedName("person_image")
+    public String person_image;
 
 
-
-    public PersonEntity(String username, String password, String nombre, String apellidos, String email) {
-        this.username = username;
-        this.password = password;
-        this.nombre = nombre;
-        this.apellidos = apellidos;
-        this.email = email;
+    public PersonEntity(String id, UserEntity user, String genre, String born_date, String person_image) {
+        this.id = id;
+        this.user = user;
+        this.genre = genre;
+        this.born_date = born_date;
+        this.person_image = person_image;
     }
 
-    public String getUsername() {
-        return username;
+    public String getId() {
+        return id;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public String getPassword() {
-        return password;
+    public UserEntity getUser() {
+        return user;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setUser(UserEntity user) {
+        this.user = user;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getGenre() {
+        return genre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setGenre(String genre) {
+        this.genre = genre;
     }
 
-    public String getApellidos() {
-        return apellidos;
+    public String getBorn_date() {
+        return born_date;
     }
 
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
+    public void setBorn_date(String born_date) {
+        this.born_date = born_date;
     }
 
-    public String getEmail() {
-        return email;
+    public String getPerson_image() {
+        return person_image;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setPerson_image(String person_image) {
+        this.person_image = person_image;
     }
 }

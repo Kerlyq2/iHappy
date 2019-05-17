@@ -1,29 +1,16 @@
-package me.tesis.ihappy.data;
+package me.tesis.ihappy.data.entities;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-
-public class loginData {
-
+public class prueba {
     @SerializedName("username")
-    @Expose
     public String username;
     @SerializedName("password")
-    @Expose
     public String password;
 
-    public loginData(String username, String password) {
+    public prueba(String username, String password) {
         this.username = username;
-        this.password = password;
-    }
-
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
         this.password = password;
     }
 
@@ -31,7 +18,15 @@ public class loginData {
         return username;
     }
 
-    public void setUsername(String username) {
+    public void setUsername(String email) {
         this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

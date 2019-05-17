@@ -34,7 +34,7 @@ public class RegisterPresenter implements RegisterUserContract.Presenter {
     public void register(String first_name, String last_name, String email, String username, String password, String genre, String born_of_date) {
         view.setLoadingIndicator(true);
         UserRequest userRequest = serviceFactory.createService(UserRequest.class);
-        Call<ResponseEntity> call = userRequest.registerUser(ApiConstants.CONTENT_TYPE, first_name, last_name,
+        Call<ResponseEntity> call = userRequest.registerUser(ApiConstants.CONTENT_TYPE_JSON, first_name, last_name,
                 email, username, password, genre, born_of_date);
         call.enqueue(new Callback<ResponseEntity>() {
             @Override

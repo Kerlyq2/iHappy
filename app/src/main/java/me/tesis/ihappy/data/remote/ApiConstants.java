@@ -3,9 +3,6 @@ package me.tesis.ihappy.data.remote;
 import me.tesis.ihappy.data.remote.Request.UserRequest;
 import retrofit2.Retrofit;
 
-/**
- * Created by jairbarzola on 24/09/17.
- */
 
 public class ApiConstants {
 
